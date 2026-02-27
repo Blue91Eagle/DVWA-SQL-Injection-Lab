@@ -36,8 +36,14 @@ You have an error in your SQL syntax...
 
 This confirms unsanitized user input is directly passed into the SQL query.
 
----
 
+---
+## 📸 Screenshots
+
+![SQL Error](screenshots/Screenshot_2026-02-27_17_02_03.png)
+
+![Network Request](screenshots/Screenshot_2026-02-27_17_08_39.png) 
+---
 ## ⚠️ Impact
 
 An attacker could potentially:
