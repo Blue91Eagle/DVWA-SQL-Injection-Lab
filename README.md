@@ -42,7 +42,7 @@ This confirms unsanitized user input is directly passed into the SQL query.
 
 ![SQL Error](screenshots/Screenshot_2026-02-27_17_02_03.png)
 
-![SQL Error](screenshots/Screenshot_2026-02-27_17_08_39.png) 
+![SQL Error](screenshots/Screenshot_2026-02-27_17_08_39.png)
 
 ## 🧠 Technical Analysis
 
