@@ -42,7 +42,17 @@ This confirms unsanitized user input is directly passed into the SQL query.
 
 ![SQL Error](screenshots/Screenshot_2026-02-27_17_02_03.png)
 
-![Network Request](screenshots/Screenshot_2026-02-27_17_08_39.png) 
+![SQL Error](screenshots/Screenshot_2026-02-27_17_08_39.png) 
+
+## 🧠 Technical Analysis
+
+The SQL Injection occurs because the application directly inserts user input into the SQL query without sanitization or parameterized statements.
+
+Example vulnerable pattern:
+
+SELECT * FROM users WHERE id = '$id';
+
+When a single quote is injected (1'), the query breaks and produces a database error, confirming improper input handling.
 ---
 ## ⚠️ Impact
 
